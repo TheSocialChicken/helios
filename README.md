@@ -6,7 +6,7 @@ This is the „Helios” theme from HTML5UP (http://html5up.net) and is adapted 
 To install manually, go to theme/ and do a checkout:
 git clone https://github.com/bolt/helios.git
 
-Set theme: simple in your app/config/config.yml, and you're good to go!
+Set theme: helios in your app/config/config.yml, and you're good to go!
 
 -------------
 
