@@ -1,6 +1,6 @@
 {
     "name": "dsduit/helios-html5up",
-    "description": "This is the „Helios” theme from HTML5UP.",
+    "description": "This is the Helios theme from HTML5UP.",
     "type": "bolt-theme",
     "keywords": ["theme", "html5UP", "skell"],
     "require": {
@@ -12,5 +12,12 @@
             "name": "Derk Duit",
             "email": "derk@twokings.nl"
         }
-    ]
+    ],
+    "extra": {
+        "bolt-screenshots": [
+            "screenshots/home.png",
+            "screenshots/splash.png",
+            "screenshots/footer.png"
+        ]
+    }
 }
