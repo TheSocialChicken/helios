@@ -1,7 +1,7 @@
 {% extends "base.twig" %}
 
 {% block body_class %}
-    class="left-sidebar"
+    class="right-sidebar"
 {% endblock %}
 
 {% block page_header %}
@@ -10,19 +10,18 @@
 				<!-- Inner -->
 					<div class="inner">
 						<header>
-							<h1><a href="index.html" id="logo">Helios</a></h1>
+							<h1><a href="/" id="logo">Helios</a></h1>
 						</header>
 					</div>
 {% endblock %}
 
 {% block content %}
-	<!-- Main -->
+		<!-- Main -->
 			<div class="wrapper style1">
 
 				<div class="container">
 					<div class="row double">
-						{% include '_aside-left.twig' %}
-						<div class="8u skel-cell-important" id="content">
+						<div class="8u" id="content">
 							<article id="main">
 								<header>
 									<h2><a href="#">{{ record.title }}</a></h2>
@@ -36,9 +35,11 @@
 								</section>
 							</article>
 						</div>
+						{% include '_aside-right.twig' %}
 					</div>
 					<hr />
 					{% include '_3block.twig' %}
 				</div>
-			</div>			
+
+			</div>
 {% endblock %}
