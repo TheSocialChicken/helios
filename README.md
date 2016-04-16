@@ -3,8 +3,10 @@ Helios by HTML5 UP
 
 This is the „Helios” theme from HTML5UP (http://html5up.net) and is adapted for Bolt.
 
+**Note:**  This is for Bolt 3. Check out the `bolt-v2` branch for a Bolt 2 compatible version.
+
 To install manually, go to theme/ and do a checkout:
-git clone https://github.com/bolt/helios.git
+git clone https://github.com/Dsduit/helios.git
 
 Set theme: helios in your app/config/config.yml, and you're good to go!
 
